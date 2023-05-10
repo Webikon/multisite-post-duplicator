@@ -1085,7 +1085,7 @@ function mpd_get_objects_of_site_categories($post_type){
 *
 */
 function mpd_set_destination_categories($post_id, $source_categories, $post_type){
-    mpd_set_post_taxonomy_terms($post_id, $source_categories);
+    mpd_set_post_taxonomy_terms($post_id, $source_categories, $post_type);
     return;
 }
 
